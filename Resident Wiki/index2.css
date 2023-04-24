@@ -1,0 +1,368 @@
+body{
+    background-image: url(background3.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+
+
+
+.banner{
+
+    display: flex;
+    height: 14%;
+    margin-top: auto;
+    margin-bottom: 0;
+    background-color: black;
+    align-items: center;
+    
+
+}
+
+.welcome,.logout{
+    text-align: center;
+    margin-right: 6%;
+    margin-bottom: 2%;
+}
+
+.welcome span{
+    background-image: url(paper.jpg);
+    border-radius: 10px;
+    padding: 10px;
+    font-family: caveat;
+}
+
+
+.logout a{
+    text-decoration: none;
+    color: black;
+}
+
+.logout span{
+    border: red 1px solid;
+    border-radius: 10px;
+    padding: 7px;
+    background-image: url(paper.jpg);
+    font-family: caveat;
+    font-size: larger;
+
+
+}
+
+.logout span:hover{
+    background-image: none;
+    background-color: red;
+    color: white;
+}
+
+
+
+.img-bar input{
+    position: relative;
+    max-height: 55px;
+    max-width: 55px;
+    margin: 7px;
+    transition: 0.5s;
+    
+}
+
+.img-bar input:hover{
+    max-height: 70px;
+    max-width: 70px;
+    transition: 0.5s;
+}
+
+
+.banner img {
+
+    width: 400px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.banner a {
+    width: 400px;
+    height: 100px;
+    margin-left: 36%;
+    margin-right: -10%;
+    font-size: 200%;
+    line-height: 100px;
+    text-decoration: none;
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.GameTP{
+
+    overflow: hidden;
+    height: 800px;
+    width: 1200px;
+    margin-left: 520px;
+    margin-top: 20px;
+}
+
+input[type="image"]{
+    width: 500px;
+    height: 500px;
+    cursor: pointer;
+}
+
+
+.img-container{
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    float: left;
+}
+
+.img-container img{
+    width: 500px;
+    height: 500px;
+    cursor: pointer;
+}
+
+.img-page img{
+    
+
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    
+}
+
+.img-page{
+    width: 1000px;
+    height: 1000px;
+    float: left;
+    margin-right: auto;
+    margin-left: 70%;
+    margin-top: -8%;
+    position: relative;
+    margin-bottom: -80%;
+    display: inline-block;
+    
+}
+
+
+.spinner 
+{
+    transition: all 0.2s linear;
+    transform: rotate(0deg);
+}
+  
+.spinner.in
+{
+    transform: rotate(180deg);
+}
+
+
+
+.sidebar{
+    position: absolute;
+    background: #000;
+    display: inline-flex;
+    top:0;
+    left:-25px;
+    width: 200px;
+    height: 95%;
+    transition: 0.5s;
+    padding: 22px;
+    z-index: 5;
+    top: -100%;
+    border-radius: 15px;
+    
+  
+}
+  
+.sidebar.active{
+    top: 0;
+}
+  
+.sidebar ul{
+    display: inline-flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-right: -4px;
+    padding:10px;
+}
+  
+.sidebar li{
+    background: #000;
+    display: inline-flex;
+    
+}
+  
+.sidebar ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 10px 0;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: #000;
+}
+  
+.sidebar ul li a:hover{
+    color: darkred;
+}
+  
+
+
+.icon{
+    width: 50px;
+    height: 50px;
+    float: left;
+    position: relative;
+    margin-top: 7.3%;
+    margin-left: 1%;
+    z-index: 10;
+
+
+}
+
+.icon img{
+    width: 70px;
+    height: 70px;
+    margin-top: -400%;
+    cursor: pointer;
+    z-index: 50;
+}
+
+.sidebar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 5px;
+    background:#000;
+}
+
+.text h1 span{
+    background-image: url(paper.jpg);
+    color: black;
+    border: black 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Caveat', cursive;
+
+
+}
+
+.textbackground{
+    position: relative;
+    background-image: url(paper.jpg);
+    color: black;
+    border: black 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 750px;
+    font-family: caveat;
+    margin-left: 4%;    
+    
+}
+
+.table-responsive h3 span{
+    background-image: url(paper.jpg);
+    color: black;
+    border: black 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Caveat', cursive;
+    font-size: larger;
+
+
+}
+
+.box{
+    background-image: url(paper.jpg);
+    color: black;
+    font-family: caveat;
+    font-size: 30px;
+    margin-left: 23%;
+    position: relative;
+    border-color: black;
+    
+}
+
+.box input{
+    color: black;
+    font-size: large;
+    background: none;
+}
+.form-group a{
+    text-decoration: none;
+    color: black;
+    float: right;
+    
+
+}
+.form-group span{
+    border: red 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.form-group span:hover{
+    background-color: red;
+    color: white;
+}
+
+.form-group2 a{
+    text-decoration: none;
+    color: black;
+    float: right;
+    
+
+}
+.form-group2 span{
+    border: red 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.form-group2 span:hover{
+    background-color: red;
+    color: white;
+}
+
+
+
+.gallery{
+    max-width: 1200px;
+    height: 1200px;
+    display: inline-flex;
+    margin-left: 6.8%;
+    margin-top: 8%;
+}
+
+.gallery input{
+    max-width: 80px;
+    max-height: 80px;
+    display: inline-flex;
+    transition: 0.5s;
+}
+
+.gallery input:hover{
+    max-width: 100px;
+    max-height: 100px;
+    transition: 0.5s;
+}
+
+.box h2{
+    text-align: center;
+}
+
+.box textarea{
+    margin-left: 10%;
+}
+
